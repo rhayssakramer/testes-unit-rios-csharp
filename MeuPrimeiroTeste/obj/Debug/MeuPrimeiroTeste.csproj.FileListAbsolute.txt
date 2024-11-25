@@ -1,0 +1,6 @@
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\bin\Debug\MeuPrimeiroTeste.dll
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\bin\Debug\MeuPrimeiroTeste.pdb
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.csproj.AssemblyReference.cache
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.csproj.CoreCompileInputs.cache
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.dll
+C:\Users\r.bezerra.de.melo\source\repos\MeuPrimeiroTeste\obj\Debug\MeuPrimeiroTeste.pdb
