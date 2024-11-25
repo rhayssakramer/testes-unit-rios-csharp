@@ -25,10 +25,26 @@ namespace MeuPrimeiroTest
             Assert.IsFalse(fromCall);
         }
         [TestMethod]
+        [ExpectedException(typeof(ArgumentNullException))]
         public void FileNameNullOrEmpty_ThrowsArgumentNullException()
         {
-            //TODO
-            Assert.Inconclusive();
+            FileProcess fp = new FileProcess();
+            fp.FileExists("");
+        }
+        [TestMethod]
+        public void FileNameNullOrEmpty_ThrowsArgumentNullException_UsingTryCatch()
+        {
+            FileProcess fp = new FileProcess();
+            try
+            {
+                fp.FileExists("");
+            }
+            catch (ArgumentNullException)
+            {
+                //The test was a Sucess.
+                return;
+            }
+            Assert.Fail("Fail expected");
         }
     }
 }
